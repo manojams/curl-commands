@@ -196,7 +196,7 @@ curl -i -X PUT http://localhost:8080/rest/v1/system/configs/authentication.gatew
     Pre:
     - Make sure the gateway token in the URL is correct (replace "e61c6b2b78a674d19304c357a20f1d09" if needed)
     
-curl -i -X GET 'http://localhost:/start?name=emeadevice&amount=15&tenant=DEFAULT&api=ddi&endpoint=http://hawkbit:8080&gatewaytoken=e61c6b2b78a674d19304c357a20f1d09'
+    curl -i -X GET 'http://localhost:8083/start?name=emeadevice&amount=15&tenant=DEFAULT&api=ddi&endpoint=http://hawkbit:8080&gatewaytoken=e61c6b2b78a674d19304c357a20f1d09'
 
 -------------------------------------------------------------------------------------------
 # Step 2.2: Provision Many Devices for Group "APAC" (Device Simulator + DDI)
